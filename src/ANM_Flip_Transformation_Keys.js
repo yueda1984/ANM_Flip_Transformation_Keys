@@ -1,5 +1,5 @@
 /*
-	Flip Transformation Keys v0.4
+	Flip Transformation Keys
 
 	Flip Keyframe values on selected pegs and/or drawings.
 	You can choose to only modify values on keyframes selected in the timeline, or all keyframes on the selected node(s).
@@ -16,8 +16,8 @@
 	2) Locate to your user scripts folder (a hidden folder):
 	   https://docs.toonboom.com/help/harmony-17/premium/scripting/import-script.html	
 	   
-	3) Add all unzipped files (*.js, and script-icons folder) directly to the folder above.
-	4) Add ANM_Flip_Transformation_Keys on any toolbar.
+	3) There is a folder named "src" inside the zip file. Copy all its contents directly to the folder above.
+	4) In Harmony, add ANM_Flip_Transformation_Keys function to any toolbar.
 
 	
 	Direction:
@@ -32,7 +32,9 @@
 		Yu Ueda (raindropmoment.com)
 		
 */
-	
+
+
+var scriptVer = "0.4";
 	
 	
 function ANM_Flip_Transformation_Keys()
